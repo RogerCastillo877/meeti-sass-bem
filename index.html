@@ -1,15 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meeti</title>
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,900|Staatliches" rel="stylesheet">
-    <link rel="stylesheet" href="build/css/app.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meeti</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,900|Staatliches" rel="stylesheet">
+  <link rel="stylesheet" href="build/css/app.css">
 </head>
 <body>
+  <header class="header container">
+    <div class="header__logo">
+      <a href="index.html">
+        <img src="build/img/logo.png" alt="logo meeti">
+      </a>
+    </div>
+    <nav class="navigation">
+      <a href="#" class="navigation__link navigation__link--create">Crear Grupo</a>
+      <a href="#" class="navigation__link">Iniciar sesión</a>
+      <a href="#" class="navigation__link">Registrarse</a>
+    </nav>
+  </header>
 
-    
+  <section class="hero">
+    <h1 class="hero__text">Encuentra o crea un grupo para compartir lo que más te gusta</h1>
+    <a href="#" class="hero__link">Obtener una cuenta</a>
+  </section>
+
+  <section class="search">
+    <h2 class="search__heading">Busca un grupo en tu ciudad</h2>
+    <div class="container">
+      <form class="form">
+        <select class="form__field">
+          <option>Programación</option>
+          <option>Diseño</option>
+          <option>Negocios</option>
+          <option>Moda</option>
+          <option>Ejercicio y Salud</option>
+          <option>Fotografía</option>
+          <option>Comida</option>
+          <option>Diseño Interior</option>
+          <option>Café</option>
+          <option>Cine</option>
+          <option>Libros</option>
+          <option>Emprendimiento</option>
+        </select>
+
+        <input type="text" class="form__field" placeholder="Nombre Evento">
+        <input type="text" class="form__field" placeholder="Ciudad o País">
+        <input type="sutmit" class="form__submit" value="Buscar">
+      </form>
+    </div>
+  </section>
+
+  <main class="events container">
+    <h2 class="events__heading">Próximos eventos</h2>
+
+    <div class="events__grid">
+      <div class="event">
+        <a href="meeti.html">
+          <img src="build/img/imagen1.jpg" alt="imagen meeti" class="event__image">
+          
+          <div class="event__content">
+            <p class="event__date">Jueves 30 de Septiembre de 20222</p>
+            <h3 class="event__name">Ideas de negocio</h3>
+            <div class="event__author">
+              <div class="event__author-image">
+                <img src="build/img/perfil1.jpg" alt="imagen perfil">
+              </div>
+              <div class="event__author-info">
+                <p class="event__organizer-text">Organizado por:</p>
+                <p class="event__organizer-name">Pepito Peréz</p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="event">
+        <a href="meeti.html">
+          <img src="build/img/imagen2.jpg" alt="imagen meeti" class="event__image">
+          
+          <div class="event__content">
+            <p class="event__date">Lunes 30 de Noviembre de 20222</p>
+            <h3 class="event__name">Bit coin y otras Criptos</h3>
+            <div class="event__author">
+              <div class="event__author-image">
+                <img src="build/img/perfil2.jpg" alt="imagen perfil">
+              </div>
+              <div class="event__author-info">
+                <p class="event__organizer-text">Organizado por:</p>
+                <p class="event__organizer-name">Alan Brito</p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="event">
+        <a href="meeti.html">
+          <img src="build/img/imagen3.jpg" alt="imagen meeti" class="event__image">
+          
+          <div class="event__content">
+            <p class="event__date">Jueves 30 de diciembre de 20222</p>
+            <h3 class="event__name">Pizza paso a paso</h3>
+            <div class="event__author">
+              <div class="event__author-image">
+                <img src="build/img/perfil1.jpg" alt="imagen perfil">
+              </div>
+              <div class="event__author-info">
+                <p class="event__organizer-text">Organizado por:</p>
+                <p class="event__organizer-name">Yosdhi Toko</p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+  </div>
+  </main>
+
+  <section class="categories">
+    <h2 class="categories__heading">Categorias</h2>
+    <ul class="categories__grid container">
+      <li class="category">
+        <img src="build/img/categoria_1.jpg" alt="imagen categoria" class="category__image">
+        <p class="category__name">Programación</p>
+      </li>
+      <li class="category">
+        <img src="build/img/categoria_2.jpg" alt="imagen categoria" class="category__image">
+        <p class="category__name">Diseño</p>
+      </li>
+      <li class="category">
+        <img src="build/img/categoria_3.jpg" alt="imagen categoria" class="category__image">
+        <p class="category__name">Negocios</p>
+      </li>
+      <li class="category">
+        <img src="build/img/categoria_4.jpg" alt="imagen categoria" class="category__image">
+        <p class="category__name">Moda</p>
+      </li>
+      <li class="category">
+        <img src="build/img/categoria_5.jpg" alt="imagen categoria" class="category__image">
+        <p class="category__name">Ejercicio y Salud</p>
+      </li>
+      <li class="category">
+        <img src="build/img/categoria_6.jpg" alt="imagen categoria" class="category__image">
+        <p class="category__name">Fotografía</p>
+      </li>
+      <li class="category">
+        <img src="build/img/categoria_7.jpg" alt="imagen categoria" class="category__image">
+        <p class="category__name">Comida</p>
+      </li>
+      <li class="category">
+        <img src="build/img/categoria_8.jpg" alt="imagen categoria" class="category__image">
+        <p class="category__name">Diseño Interior</p>
+      </li>
+      <li class="category">
+        <img src="build/img/categoria_9.jpg" alt="imagen categoria" class="category__image">
+        <p class="category__name">Café</p>
+      </li>
+      <li class="category">
+        <img src="build/img/categoria_10.jpg" alt="imagen categoria" class="category__image">
+        <p class="category__name">Cine</p>
+      </li>
+      <li class="category">
+        <img src="build/img/categoria_11.jpg" alt="imagen categoria" class="category__image">
+        <p class="category__name">Libros</p>
+      </li>
+      <li class="category">
+        <img src="build/img/categoria_12.jpg" alt="imagen categoria" class="category__image">
+        <p class="category__name">Emprendimiento</p>
+      </li>
+    </ul>
+  </section>
+  <section class="groups">
+    <div class="groups__grid container">
+      <div class="group__block">
+        <h3 class="group__heading">Crea un grupo</h3>
+        <p class="group__text">Comparte lo que te gusta Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dolorum omnis eaque hic laudantium animi esse odio aut rerum eius.
+        </p>
+      </div>
+      <div class="group__block">
+        <h3 class="group__heading">Únete a un grupo</h3>
+        <p class="group__text">Conoce personas con tus mismos gustos Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dolorum omnis eaque hic laudantium animi esse odio aut rerum eius.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer container">
+    <nav class="navigation">
+      <a href="#" class="navigation__link navigation__link--create">Crear Grupo</a>
+      <a href="#" class="navigation__link">Iniciar sesión</a>
+      <a href="#" class="navigation__link">Registrarse</a>
+    </nav>
+    <p class="footer__copyright">Todos los derechos reservados. Meeti</p>
+  </footer>
 </body>
 </html>
