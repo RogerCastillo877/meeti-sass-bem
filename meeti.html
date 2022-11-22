@@ -1,14 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meeti</title>
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,900|Staatliches" rel="stylesheet">
-    <link rel="stylesheet" href="build/css/app.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meeti</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,900|Staatliches" rel="stylesheet">
+  <link rel="stylesheet" href="build/css/app.css">
 </head>
 <body>
+  <header class="header container">
+    <div class="header__logo">
+      <a href="index.html">
+        <img src="build/img/logo.png" alt="logo meeti">
+      </a>
+    </div>
+    <nav class="navigation">
+      <a href="#" class="navigation__link navigation__link--create">Crear Grupo</a>
+      <a href="#" class="navigation__link">Iniciar sesión</a>
+      <a href="#" class="navigation__link">Registrarse</a>
+    </nav>
+  </header>
+  
+  <main class="meeti container">
+    <h2 class="meeti__name">Headlees con Next.js</h2>
 
+    <div class="meeti__grid">
+      
+      <section class="meeti__info">
+        <img src="build/img/meeti.jpg" alt="imagen meeti">
+        <p class="meeti__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni quis molestias officiis debitis magnam praesentium ex assumenda laboriosam labore animi facilis quaerat aperiam tempora, alias dolores maiores, soluta, quibusdam laborum.</p>
+        <p class="meeti__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni quis molestias officiis debitis magnam praesentium ex assumenda laboriosam labore animi facilis quaerat aperiam tempora, alias dolores maiores, soluta, quibusdam laborum.</p>
+      </section>
+
+      <aside class="sidebar">
+        <img src="build/img/mapa.jpg" alt="imagen mapa">
+        <div class="sidebar__content">
+          <h3 class="sidebar__heading">Información meeti</h3>
+          <p class="sidebar__text"><span>Fecha: </span>30de diciembre de 2022</p>
+          <p class="sidebar__text"><span>hora: </span>20 : 30</p>
+          <p class="sidebar__text">Ubicación: Av. Vallarta 3033</p>
+        </div>
+      </aside>
+    </div>
+  </main>
+  
+  <footer class="footer container">
+    <nav class="navigation">
+      <a href="#" class="navigation__link navigation__link--create">Crear Grupo</a>
+      <a href="#" class="navigation__link">Iniciar sesión</a>
+      <a href="#" class="navigation__link">Registrarse</a>
+    </nav>
+    <p class="footer__copyright">Todos los derechos reservados. Meeti</p>
+  </footer>
 </body>
 </html>

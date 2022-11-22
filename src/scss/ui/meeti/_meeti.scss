@@ -1,0 +1,15 @@
+@use 'base/mixins' as m;
+
+.meeti {
+
+  &__name {
+    @include m.heading;
+    margin-bottom: 5rem
+  }
+  &__grid {
+    @include m.grid(3, 2rem);
+  }
+  &__info {
+    grid-column: 1 / 3;
+  }
+}
